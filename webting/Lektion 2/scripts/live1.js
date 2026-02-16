@@ -1,0 +1,10 @@
+let values = ["jazz","blues"];
+values.push("Rock-n-Roll");
+console.log(values);
+values[Math.floor(values.length/2)] = "classics";
+console.log(values);
+let firstvalue = values.shift();
+cosnsole.log(firstvalue);
+values.unshift(raggae);
+values.unshift(rap);
+console.log(values);
